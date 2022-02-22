@@ -14,7 +14,6 @@
 * detect temperature in analog format
 * use ADC0804 for analog to digital conversion
 
-
 ## Components
 
 * AT89C51 (8051 Microcontroller)
@@ -24,31 +23,6 @@
 * LM35
 * Power Supply
 * Connecting Wires
-
-# Basic Calculator
-
-### High level requirements
-
-* Include "Equal to" button
-* Include decimal point to operate on floating values
-* Include all basic arithmetic operations
-* Include ON/OFF button
-
-### Low level requirements
-
-* Include Clear screen button
-* On pressing "Equal to" result will be displayed
-* by pressing ON/OFF button twice screen will be cleared
-
-### components
-
-* Button switch
-* 4*4 keyboard matrix
-* 16x2 LCD display
-* crytstal oscilator
-* resistors capacitors
-* voltage regulator
-* jumper wires
 
 
 
