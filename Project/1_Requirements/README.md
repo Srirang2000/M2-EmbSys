@@ -2,6 +2,10 @@
 
 # Obstacle detector using Ultrasonic sensor
 
+## Abstract
+
+
+
 ## High level requirements
 
 | Requirements | Description |
