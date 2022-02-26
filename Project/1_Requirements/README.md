@@ -1,10 +1,10 @@
 # EmbSys
 
-# Obstacle detector using Ultrasonic sensor
+# Obstacle detection using Ultrasonic sensor
 
 ## Abstract
 
-
+* The capacity of a smart car to detect and classify an obstruction at various distances from it is critical to the system's design. t. An ultrasonic sensor is a very valuable sensor in the automation area. A mobile robot, for example, takes environmental data, turns it into a signal, and then performs the signalled duty of avoiding obstacles. This particular sensor provides satisfactory results at a reasonable price.
 
 ## High level requirements
 
@@ -26,6 +26,15 @@
 | HLR-2 | LLR-1 | This LCD display shows the distance of the obstacle in centimeters or inches |
 | HLR-3 | LLR-1 | This is a sound device that warns with a buzzer |
 | HLR-4 | LLR-1 | HC-SR04 is a ultrasonic sensor which works using SONAR to detect obstacles |
+
+
+### Sensor 
+
+* Ultrasonic sensor HC-SR04
+
+### Actuator
+
+* Buzzer
 
 ## Components
 
