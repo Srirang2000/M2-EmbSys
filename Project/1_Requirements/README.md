@@ -46,6 +46,7 @@
 | 220 ohm resistor |  | 
 | Potentiometer | The potentiometer is a device that is used to measure the voltage or electric potential. It provides a variable resistance when the shaft of the device is turned. |
 | 5V voltage source | Voltage source for the peripherals to work |
+| Buzzer | It works as a actuator alerting the user |
 
 ## Swot Analysis
 
@@ -87,6 +88,18 @@
 * In houses to stop excess water from filling ultrasonic sensorcan be used
 * In vehicles for anti collision system 
 
+### When can this be used ?
+
+* In houses to stop excess water from filling ultrasonic sensorcan be used
+* In vehicles for anti collision system 
+
+
+## Applications
+
+* Anti-Collision Detection.
+* People Detection.
+* Contouring or Profiling.
+* Presence Detection.
 
 
 
