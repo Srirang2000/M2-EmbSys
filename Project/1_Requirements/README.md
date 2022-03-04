@@ -4,7 +4,7 @@
 
 ## Abstract
 
-* The capacity of a smart car to detect and classify an obstruction at various distances from it is critical to the system's design. t. An ultrasonic sensor is a very valuable sensor in the automation area. A mobile robot, for example, takes environmental data, turns it into a signal, and then performs the signalled duty of avoiding obstacles. This particular sensor provides satisfactory results at a reasonable price.
+* The capacity of a smart car to detect and classify an obstruction at various distances from it is critical to the system's design. An ultrasonic sensor is a very valuable sensor in the automation area. A mobile robot, for example, takes environmental data, turns it into a signal, and then performs the signalled duty of avoiding obstacles. This particular sensor provides satisfactory results at a reasonable price.
 
 ## High level requirements
 
