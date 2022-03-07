@@ -8,6 +8,7 @@
 | T.01          | To check distance measured  | Sensor input | Display output in units | Success | Technical based |
 | T.02          | To check the message displayed | message passed in code | message passed in code | Success | Technical based |
 | T.03          | To check buzzer output | threshold distance | buzzer sound | Success | Technical based |
+| T.04          | To verify LED output | threshold distance | RED or GREEN LED | Success | Technical based |
 
 # Low level test plan
 
