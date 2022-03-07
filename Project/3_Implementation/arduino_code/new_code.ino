@@ -2,31 +2,31 @@
  
  #define echo 10
  #define trig 9
- #define outA 12    // Red LED to indicate too close
- #define outB 8    // Green LED to indicate that its at safe distance
- #define outC 11   // Buzzer to indicate too close
+ #define outA 12                   // Red LED to indicate too close
+ #define outB 8                 // Green LED to indicate that its at safe distance
+ #define outC 11                // Buzzer to indicate too close
+
+ float  duration;                    // time taken by the pulse to return back
+ float  distance;                      // oneway distance travelled by the pulse
+ const int intruderDistance = 25;          // the minimum distance upto which its safe 
   
- float  duration; // time taken by the pulse to return back
- float  distance; // oneway distance travelled by the pulse
- const int intruderDistance = 25;  // the minimum distance upto which its safe 
-  
- LiquidCrystal lcd(1,2,4,5,6,7); //lcd(RS,EN,D4,D5,D6,D7) pins connectted on arduino uno
+ LiquidCrystal lcd(1,2,4,5,6,7);           //lcd(RS,EN,D4,D5,D6,D7) pins connectted on arduino uno
   
  void setup() 
  {
-    pinMode(trig, OUTPUT);   // setting trig pin as OUTPUT, it receives a pulse from clock for a small duration
-    pinMode(echo, INPUT);    // setting echo as INPUT
+    pinMode(trig, OUTPUT);          // setting trig pin as OUTPUT, it receives a pulse from clock for a small duration
+    pinMode(echo, INPUT);            // setting echo as INPUT
     
-    pinMode(outA, OUTPUT);    // RED LED set to OUTPUT 
-    digitalWrite(outA, LOW);  // initialize RED LED to be OFF
+    pinMode(outA, OUTPUT);            // RED LED set to OUTPUT 
+    digitalWrite(outA, LOW);         // initialize RED LED to be OFF
     
-    pinMode(outB, OUTPUT);     // GREEN LED set to OUTPUT
-    digitalWrite(outB, LOW);   // initialize RED LED to be OFF
+    pinMode(outB, OUTPUT);              // GREEN LED set to OUTPUT
+    digitalWrite(outB, LOW);          // initialize RED LED to be OFF
     
-    pinMode(outC, OUTPUT);     // Buzzer set as OUTPUT 
-    digitalWrite(outC, LOW);   // Initialize buzzer to LOW
+    pinMode(outC, OUTPUT);              // Buzzer set as OUTPUT 
+    digitalWrite(outC, LOW);            // Initialize buzzer to LOW
     
-    Serial.begin(9600);      // Sets the data rate in bits per second(baud rate) for serial data transmission
+    Serial.begin(9600);              // Sets the data rate in bits per second(baud rate) for serial data transmission
     lcd.begin(16, 2);
  }
   

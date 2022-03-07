@@ -47,6 +47,7 @@
 | Potentiometer | The potentiometer is a device that is used to measure the voltage or electric potential. It provides a variable resistance when the shaft of the device is turned. |
 | 5V voltage source | Voltage source for the peripherals to work |
 | Buzzer | It works as a actuator alerting the user |
+| LED | LED can be used to display safe and danger signal .|
 
 ## Swot Analysis
 
@@ -57,7 +58,7 @@
 
 ### opportunities
 
-* can be useed in vehicles for obstacle detection
+* can be used in vehicles for obstacle detection
 * more peripherals can be added to show warning messages
 * It can also be used in water level sensing in tanks
 

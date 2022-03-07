@@ -1,3 +1,7 @@
 ### Implementation of Digital temperature sensor 
 
-### digital_sensor.c
+### new_code.ino -> code for circuit
+
+### new_code.ino.hex -> HEX file for simulide
+
+### new.simu -> simulide circuit file
