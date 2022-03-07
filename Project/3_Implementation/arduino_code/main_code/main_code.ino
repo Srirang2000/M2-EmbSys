@@ -1,4 +1,4 @@
- #include<LiquidCrystal.h>
+#include<LiquidCrystal.h>
  
  #define echo 10
  #define trig 9
